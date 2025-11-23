@@ -1,0 +1,24 @@
+<svg width="180" height="140" viewBox="0 0 180 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="scooter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B9F5E2"/>
+      <stop offset="100%" stop-color="#77D8C2"/>
+    </linearGradient>
+    <linearGradient id="seat" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B9AF7"/>
+      <stop offset="100%" stop-color="#6B7CEB"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="180" height="140" rx="28" fill="#EAF5FF"/>
+  <g transform="translate(22 42)">
+    <rect x="20" y="52" width="86" height="12" rx="6" fill="#B6C5FF"/>
+    <circle cx="40" cy="82" r="14" fill="#111827" stroke="#E5E7EB" stroke-width="4"/>
+    <circle cx="108" cy="82" r="14" fill="#111827" stroke="#E5E7EB" stroke-width="4"/>
+    <path d="M42 40 Q54 38 60 30 L68 12 L78 18 L70 32 Q60 46 44 48Z" fill="#9DB4FF" stroke="#6A7CEB" stroke-width="2"/>
+    <rect x="70" y="16" width="12" height="34" rx="6" fill="url(#seat)"/>
+    <rect x="76" y="-2" width="10" height="40" rx="6" fill="#A6B6FF"/>
+    <rect x="84" y="30" width="42" height="30" rx="14" fill="url(#scooter)" stroke="#5ABEA3" stroke-width="2"/>
+    <rect x="102" y="16" width="14" height="20" rx="6" fill="#E8FFF7" stroke="#7AD9C4" stroke-width="2"/>
+    <rect x="50" y="58" width="44" height="6" rx="3" fill="#DCE6FF"/>
+  </g>
+</svg>

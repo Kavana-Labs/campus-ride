@@ -1,0 +1,25 @@
+<svg width="180" height="140" viewBox="0 0 180 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="truck-body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C1CEFF"/>
+      <stop offset="100%" stop-color="#7E8EF9"/>
+    </linearGradient>
+    <linearGradient id="truck-box" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F2C892"/>
+      <stop offset="100%" stop-color="#E4A95F"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="180" height="140" rx="28" fill="#EEF2FF"/>
+  <g transform="translate(18 42)">
+    <rect x="6" y="30" width="120" height="46" rx="14" fill="url(#truck-body)" stroke="#6373E0" stroke-width="2"/>
+    <rect x="64" y="14" width="62" height="54" rx="12" fill="url(#truck-box)" stroke="#D2934C" stroke-width="2"/>
+    <rect x="76" y="20" width="16" height="14" rx="3" fill="#F7E4C5"/>
+    <rect x="94" y="40" width="20" height="6" rx="3" fill="#D2934C"/>
+    <path d="M18 30 L18 16 Q18 6 30 6 L60 6 Q72 6 74 16 L78 36 L52 36 Q40 36 36 40 L18 54Z" fill="#A6B4FD" stroke="#6373E0" stroke-width="2"/>
+    <rect x="26" y="16" width="26" height="14" rx="4" fill="#D9E1FF"/>
+    <rect x="32" y="20" width="12" height="10" rx="2" fill="#98A7F7"/>
+    <circle cx="42" cy="80" r="14" fill="#1F2937" stroke="#E2E8F0" stroke-width="4"/>
+    <circle cx="108" cy="80" r="14" fill="#1F2937" stroke="#E2E8F0" stroke-width="4"/>
+    <rect x="20" y="58" width="76" height="4" rx="2" fill="#DDE4FF"/>
+  </g>
+</svg>

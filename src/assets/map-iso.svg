@@ -1,0 +1,67 @@
+<svg width="520" height="320" viewBox="0 0 520 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-map" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6F7FB"/>
+      <stop offset="100%" stop-color="#E7EDF7"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D7DEEB"/>
+      <stop offset="100%" stop-color="#C8D1E3"/>
+    </linearGradient>
+    <linearGradient id="building" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ECF4FF"/>
+      <stop offset="100%" stop-color="#CFE2FF"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9BC8FF"/>
+      <stop offset="100%" stop-color="#BFD6FF"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="520" height="320" rx="32" fill="url(#bg-map)"/>
+  <path d="M40 200 C120 184 220 210 280 190 C340 170 400 180 472 160 L472 186 Q408 210 344 210 Q280 210 216 224 Q140 240 72 226 L40 216Z" fill="url(#road)" opacity="0.6"/>
+  <path d="M60 128 Q120 96 186 118 L246 140 Q304 160 364 140 Q420 122 468 140 L468 156 Q404 140 350 156 Q296 172 248 156 Q188 136 130 160 Q96 174 60 166Z" fill="url(#road)" opacity="0.7"/>
+  <g transform="translate(84 140)">
+    <polygon points="0,32 48,10 96,32 48,54" fill="url(#building)" stroke="#D1DEF5"/>
+    <polygon points="0,32 0,74 48,96 48,54" fill="url(#glass)" stroke="#AEC8F5"/>
+    <polygon points="96,32 96,74 48,96 48,54" fill="#E1ECFF" stroke="#AEC8F5"/>
+    <rect x="18" y="38" width="12" height="20" fill="#8FB3F1"/>
+    <rect x="68" y="38" width="12" height="20" fill="#8FB3F1"/>
+  </g>
+  <g transform="translate(210 170)">
+    <polygon points="0,30 46,8 92,30 46,52" fill="url(#building)" stroke="#D1DEF5"/>
+    <polygon points="0,30 0,70 46,92 46,52" fill="url(#glass)" stroke="#AEC8F5"/>
+    <polygon points="92,30 92,70 46,92 46,52" fill="#E1ECFF" stroke="#AEC8F5"/>
+    <rect x="36" y="-6" width="20" height="20" fill="#B0C9F5" stroke="#8EB1E8"/>
+    <rect x="16" y="36" width="14" height="18" fill="#8FB3F1"/>
+    <rect x="62" y="36" width="14" height="18" fill="#8FB3F1"/>
+  </g>
+  <g transform="translate(340 120)">
+    <polygon points="0,36 54,12 108,36 54,60" fill="url(#building)" stroke="#D1DEF5"/>
+    <polygon points="0,36 0,82 54,106 54,60" fill="url(#glass)" stroke="#AEC8F5"/>
+    <polygon points="108,36 108,82 54,106 54,60" fill="#E1ECFF" stroke="#AEC8F5"/>
+    <rect x="22" y="40" width="16" height="20" fill="#8FB3F1"/>
+    <rect x="70" y="40" width="16" height="20" fill="#8FB3F1"/>
+    <rect x="42" y="18" width="24" height="10" rx="5" fill="#C1D8FF"/>
+  </g>
+  <g transform="translate(292 54)">
+    <polygon points="0,34 44,14 88,34 44,56" fill="#E9F1FF" stroke="#CBDDF8"/>
+    <polygon points="0,34 0,74 44,94 44,56" fill="#CBE2FF" stroke="#AEC8F5"/>
+    <polygon points="88,34 88,74 44,94 44,56" fill="#E1ECFF" stroke="#AEC8F5"/>
+    <rect x="16" y="40" width="12" height="18" fill="#9CBFF5"/>
+    <rect x="64" y="40" width="12" height="18" fill="#9CBFF5"/>
+  </g>
+  <g transform="translate(142 74)">
+    <polygon points="0,34 44,14 88,34 44,56" fill="#F1F7FF" stroke="#CBDDF8"/>
+    <polygon points="0,34 0,70 44,92 44,56" fill="#CBE2FF" stroke="#AEC8F5"/>
+    <polygon points="88,34 88,70 44,92 44,56" fill="#E1ECFF" stroke="#AEC8F5"/>
+    <rect x="36" y="0" width="16" height="16" rx="8" fill="#9DBCF8"/>
+    <rect x="16" y="40" width="12" height="16" fill="#9CBFF5"/>
+    <rect x="64" y="40" width="12" height="16" fill="#9CBFF5"/>
+  </g>
+  <g>
+    <circle cx="134" cy="118" r="12" fill="#7C6AF0" stroke="#FFFFFF" stroke-width="4"/>
+    <circle cx="302" cy="90" r="12" fill="#22D3EE" stroke="#FFFFFF" stroke-width="4"/>
+    <circle cx="390" cy="180" r="12" fill="#34D399" stroke="#FFFFFF" stroke-width="4"/>
+    <path d="M134 118 C200 108 280 92 302 90 C328 96 370 154 390 180" fill="none" stroke="#7C8DA6" stroke-dasharray="6 6" stroke-width="3"/>
+  </g>
+</svg>
